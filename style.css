@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", Georgia, "Times New Roman", Times, serif;
+  background-image: url(./background.jpg);
+  background-size: cover;
+}
+.header {
+  height: 60px;
+  width: 100%;
+}
+.nav {
+  padding: 10px 0;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.dropdown > * {
+  padding: 0 30px;
+  border: 1px solid rgb(161, 161, 161);
+  border-radius: 8px;
+  background-color: rgb(116, 101, 116);
+  color: white;
+}
+.main {
+  text-align: center;
+  padding: 100px 40px;
+}
+p {
+  font-weight: 800;
+  color: rgb(75, 95, 116);
+}
+.todo {
+  padding: 40px 0;
+}
+.todo > ul > li {
+  padding-top: 10px;
+  padding-bottom: 25px;
+  font-weight: 600;
+  color: rgb(75, 95, 116);
+}
+.todo > * {
+  list-style: none;
+  padding: 10px 0;
+}
+.input {
+  border: 1px solid rgb(161, 161, 161);
+  border-radius: 10px;
+  color: rgb(187, 135, 187);
+}
+button {
+  padding: 5px 0;
+  border: 1px solid rgb(161, 161, 161);
+  border-radius: 6px;
+}
